@@ -1,5 +1,4 @@
-Feature: Resolver index page interactions
-  Alignment with QE-guide instructions for login, list items, dropdown, buttons, dynamic content, and table data.
+Feature: Index
 
   # Test 1
   Scenario: Verify login form fields accept credentials
