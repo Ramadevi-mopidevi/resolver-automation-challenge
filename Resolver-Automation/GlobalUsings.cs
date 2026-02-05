@@ -1,0 +1,14 @@
+global using System;
+global using System.IO;
+global using System.Reflection;
+global using System.Linq;
+global using OpenQA.Selenium;
+global using OpenQA.Selenium.Chrome;
+global using OpenQA.Selenium.Edge;
+global using OpenQA.Selenium.Support.UI;
+global using Resolver.Automation.Config;
+global using Resolver.Automation.Drivers;
+global using Resolver.Automation.Pages;
+global using Resolver.Automation.Utilities;
+global using NUnit.Framework;
+global using TechTalk.SpecFlow;

@@ -1,0 +1,16 @@
+{
+  "language": {
+    "feature": "en-US",
+    "tool": "en-US"
+  },
+  "bindingCulture": {
+    "name": "en-US"
+  },
+  "unitTestProvider": {
+    "name": "nunit"
+  },
+  "trace": {
+    "traceSuccessfulSteps": false,
+    "traceTimings": true
+  }
+}
