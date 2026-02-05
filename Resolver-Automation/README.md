@@ -36,14 +36,3 @@ SpecFlow + NUnit UI automation that validates the Resolver QE sample page (login
 dotnet test Resolver-Automation/Resolver-Automation.csproj -s Resolver-Automation.runsettings
 ```
 Optionally adjust `appsettings.json` before running to point at a different HTML file or browser mode.
-
-## Assumptions and trade-offs
-- A single browser instance is shared per feature to reduce driver start-up time; scenarios rely on navigation to reset state.
-- Parallel execution is disabled to avoid contention on the shared driver.
-- Local HTML is loaded via `BaseUrl`; remote hosting would only require updating this setting.
-
-## Future scaling
-- Add CI wiring with artifacts for screenshots and test results.
-- Extend the Page Object Model into smaller fragments if coverage grows.
-- Introduce per-scenario drivers if tests need to run in parallel or against mutable environments.
-- Add structured logging sinks for richer diagnostics when needed.
